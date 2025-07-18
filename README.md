@@ -13,8 +13,7 @@ NestJS Feature Enhancement Assignment for RA lab. A REST API to manage users and
 This is project is using mysql for database management. Set up mysql and update login info in ./src/app.module.ts and ./test/app.e2e-spec.ts
 ```bash
 $ npm install
-$ npm install typeorm --save
-$ npm install mysql --save
+$ npm install @nestjs/typeorm typeorm mysql2 --save
 $ npm install @nestjs/testing --save
 ```
 
